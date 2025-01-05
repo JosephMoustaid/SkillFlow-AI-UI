@@ -1,0 +1,10 @@
+body , #root{
+    height: 100vh !important;
+}
+html, body, div {
+    background-color: var(--background-color ) !important;
+    color: var(--text-color);
+    i {
+      border-radius: 50%;
+    }
+  }
