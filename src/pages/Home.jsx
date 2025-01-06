@@ -38,7 +38,7 @@ function Home() {
       <div className="header" style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '1rem', backgroundColor: 'var(--header-bg-color)', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)' }}>
         <div className="logo-container" style={{ display: 'flex', alignItems: 'center' }}>
           <img src={logo} alt="SkillMentor" className="logo" style={{ maxHeight: '40px', maxWidth: '40px', marginRight: '0.5rem' }} />
-          <span className="logo-text" style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--text-color)' }}>SkillMentor</span>
+          <span className="logo-text" style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--text-color)' }}>SkillFlow</span>
         </div>
       </div>
       <Nav onSidebarToggle={handleSidebarToggle} history={history} setHistory={setHistory} />

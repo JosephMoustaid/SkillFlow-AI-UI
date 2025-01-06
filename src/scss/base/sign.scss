@@ -1,12 +1,17 @@
 
 .sign-up-container {
     display: flex;
-    justify-content: center;
+
+    justify-content:center;
     align-items: center;
     height: 100vh;
-    background-color: var(--background-color);
 
-
+    .left-section{
+        @media (max-width: 768px) {
+            display: none !important;
+          }
+    }
+  
     input {
       padding: 0.75rem 1rem;
       border: 1px solid var(--border-color);
@@ -36,7 +41,6 @@
   }
   
   .sign-up-box {
-    background-color: var(--content-bg-color);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -75,7 +79,7 @@
         }
       }
     }
-  
+
     .btn {
       width: 100%;
       padding: 0.75rem;
@@ -88,7 +92,7 @@
       &.btn-primary {
         background-color: var(--button-background-color);
         color: var(--button-color);
-  
+        border: 1px solid white;
         &:hover {
           background-color: var(--icon-hover-color);
           color: var(--header-bg-color);
