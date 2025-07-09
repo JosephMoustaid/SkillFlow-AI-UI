@@ -3,7 +3,7 @@ this is a web app, specificly the UI for my hackathon project Skill flow
 #### Skill flow is fine tuned AI model made to be mostly voice based, it uses GPT-4 as the base model, as well as combination of NLP models to allow for voice functionnality 
 
 ![Skillflow UI](skillflow-UI.png)
-![Skillflow UI-dark](skillflow-UI-dark.png)
+![Skillflow UI-dark](SkillfloUI-light.png)
 
 ## Available Scripts
 
