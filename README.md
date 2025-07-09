@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Skill flow UI
+this is a web app, specificly the UI for my hackathon project Skill flow
+#### Skill flow is fine tuned AI model made to be mostly voice based, it uses GPT-4 as the base model, as well as combination of NLP models to allow for voice functionnality 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
